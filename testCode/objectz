@@ -1,0 +1,55 @@
+//Objects
+const personDetails = {
+    firstName : "namira",
+    lastName:"Faiz",
+    Age: 21,
+    address : {
+pin:2000,
+area:"hyderabad"
+    }
+
+}
+console.log(personDetails)
+console.log(personDetails.firstName)
+console.log(personDetails.address.pin)
+console.log(personDetails.Age)
+
+console.log(personDetails["address"]["pin"])
+
+
+//update
+personDetails.firstName = "Aamina"
+personDetails.lastName ="Sayeed"
+console.log(personDetails)
+
+
+//to add
+personDetails.college = "MJCET";
+console.log(personDetails)
+ personDetails.accountNo = 123456;
+ console.log(personDetails)
+
+ //delete
+ delete personDetails.accountNo 
+ console.log(personDetails)
+ console.log("++++++")
+
+ //for in loop
+
+ for(let key in personDetails){
+    console.log(key)
+ }
+
+ for (let values in personDetails){
+    console.log(personDetails[values])
+ }
+
+let a = 10
+ (a % 2==0)?(a== 2)?console.log("even"): console.log("not even"): console.log("not even and not 2")
+
+ if (a%2==0){
+    console.log("even")
+ }
+
+    
+ 
