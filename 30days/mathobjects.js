@@ -1,0 +1,10 @@
+const num = 81.4;
+console.log(Math.round(num))
+console.log(Math.floor(num))
+console.log(Math.ceil(num))
+console.log(Math.min(-9,8,4,7,1))
+console.log(Math.max(8,3,5,1,9))
+console.log(Math.random())
+console.log(Math.random()*11)
+console.log(Math.sqrt(81))
+console.log(Math.pow(2,2))
